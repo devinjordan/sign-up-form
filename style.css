@@ -1,2 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
 
+  :root {
+  --light-color: rgb(237, 160, 0);
+  --dark-color: rgb(23, 23, 23);
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+
+.page-divider {
+  display: flex;
+}
+
+.image-logo-area {
+  width: 30vw;
+  overflow: hidden;
+}
+
+img {
+  transform: translateX(-50%) translateY(-40%);
+}
