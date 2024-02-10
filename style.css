@@ -10,17 +10,59 @@ body {
   margin: 0;
   background-color: var(--dark-color);
   color: var(--light-color);
+  position: relative;
 }
 
 .page-divider {
+  position: relative;
   display: flex;
 }
 
 .image-logo-area {
-  width: 30vw;
+  position: relative;
+  width: 40vw;
+  height: 100vh;
   overflow: hidden;
 }
 
 img {
-  transform: translateX(-50%) translateY(-40%);
+  transform: translateX(-50%) translateY(-45%);
+}
+
+.logo-banner {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 4rem;
+  color: antiquewhite;
+  width: 32vw;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-credit {
+  position: absolute;
+  bottom: 1rem;
+  left: 10rem;
+  z-index: 1;
+}
+
+h5 {
+  position: relative;
+  color: inherit;
+  z-index: 2;
+}
+
+a {
+  color: inherit;
+  z-index: 3;
+}
+
+.info-area {
+  display: flex;
+  flex-direction: column;
+  padding: 1vw;
 }
