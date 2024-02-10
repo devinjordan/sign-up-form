@@ -97,10 +97,26 @@ a {
 
 form {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
+  max-width: 30vw;
+  min-width: fit-content;
 }
 
 .row {
+  display: flex;
   max-width: inherit;
+  min-width: 10vw;
+  max-height: 2vw;
+}
+
+.item {
+  max-height: fit-content;
+  display: flex;
   min-width: 20vw;
+}
+
+input {
+  height: 2vh;
+  margin: auto;
 }
