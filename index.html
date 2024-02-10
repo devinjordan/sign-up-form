@@ -13,46 +13,48 @@
       <div class="logo-banner">
         <div class="logo-container">
           <h1>arden</h1>
-          <svg class="cross" width="54px" height="54px" xmlns="http://www.w3.org/2000/svg" viewBox="0 -10.5 7.5 15">
+          <svg class="cross" width="60px" height="60px" xmlns="http://www.w3.org/2000/svg" viewBox="0 -10.5 7.5 15">
             <path d="M 4.5 4.5 L 4.5 -6 L 7.5 -6 L 7.5 -7.5 L 4.5 -7.5 H 4.5 V -10.5 H 3 V -7.5 H 0 V -6 H 3 V 4.5 H 4.5" stroke="#FCFAFB" stroke-width=".25" fill="none"/>
           </svg>
         </div>
       </div>
-      <h5 class="photo-credit">Photo by <a href="https://unsplash.com/@nainoa">Nainoa Shizuru</a> on <a href="https://unsplash.com">Unsplash</a></h5>
+      <div class="credit-container">
+        <h5 class="photo-credit">Photo by <a href="https://unsplash.com/@nainoa">Nainoa Shizuru</a> on <a href="https://unsplash.com">Unsplash</a></h5>
+      </div>
     </div>
 
-    <div class="info-area">
-      <h2>This is not a real online service! Please do not enter your password or personal information.</h2>
-      <h2>Join us in following Him!</h2>
-      <h2>Sign up below</h2>
-      <form action="/my-server" method="post">
-
-        <label for="first">First name</label>
-        <input type="text" name="first" id="first">
-
-        <label for="last">Last name</label>
-        <input type="text" name="last" id="last">
-
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email">
-
-        <label for="phone">Phone number</label>
-        <input type="tel" name="phone" id="phone">
-
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password">
-
-        <label for="confirmation">Confirm password</label>
-        <input type="password" name="confirmation" id="confirmation">
-
-      </form>
+    <div class="form-side">
+      <div class="info-area">
+        <h2>This is not a real online service! Please do not enter your password or personal information.</h2>
+        <h2 class="tagline">Join us in following Him!</h2>
+        <h2 class="hook">Sign up below</h2>
+        <form action="/my-server" method="post">
+          <div class="row">
+            <label for="first">First name</label>
+            <input type="text" name="first" id="first">
+            <label for="last">Last name</label>
+            <input type="text" name="last" id="last">
+          </div>
+          <div class="row">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <label for="phone">Phone number</label>
+            <input type="tel" name="phone" id="phone">
+          </div>
+          <div class="row">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <label for="confirmation">Confirm password</label>
+            <input type="password" name="confirmation" id="confirmation">
+          </div>
+        </form>
+      </div>
+      <div class="create-account-login">
+        <button>Create Account</button>
+        <h6>Already have an account? <a href="/login-page">Log in</a></h6>
+      </div>
+        </div>
     </div>
-
-    <div class="create-account-login">
-      <button>Create Account</button>
-      <h6>Already have an account? <a href="/login-page">Log in</a></h6>
-    </div>
-  </div>
 
   
 </body>

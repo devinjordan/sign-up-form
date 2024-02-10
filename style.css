@@ -32,7 +32,7 @@ img {
 .logo-banner {
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
-  top: 4rem;
+  top: 8rem;
   color: antiquewhite;
   width: 32vw;
 }
@@ -41,11 +41,12 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: .5rem;
+  padding: 1rem;
 }
 
 h1 {
   margin: 0;
+  font-size: 3rem;
 }
 
 .cross {
@@ -54,10 +55,16 @@ h1 {
   margin: 0;
 }
 
+.credit-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
 .photo-credit {
   position: absolute;
   bottom: 1rem;
-  left: 10rem;
   z-index: 1;
 }
 
@@ -72,8 +79,28 @@ a {
   z-index: 3;
 }
 
-.info-area {
+.form-side {
   display: flex;
   flex-direction: column;
-  padding: 1vw;
+  justify-content: center;
+  padding: 3vw;
+}
+
+.tagline {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.hook {
+  margin-top: 0;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  max-width: inherit;
+  min-width: 20vw;
 }
