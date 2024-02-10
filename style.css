@@ -34,7 +34,7 @@ img {
   position: absolute;
   top: 8rem;
   color: antiquewhite;
-  width: 32vw;
+  width: inherit;
 }
 
 .logo-container {
@@ -98,7 +98,6 @@ a {
 form {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   max-width: 30vw;
   min-width: fit-content;
 }
@@ -119,4 +118,8 @@ form {
 input {
   height: 2vh;
   margin: auto;
+}
+
+label {
+
 }
