@@ -41,6 +41,17 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: .5rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+.cross {
+  position: relative;
+  right: 1.3rem;
+  margin: 0;
 }
 
 .photo-credit {
