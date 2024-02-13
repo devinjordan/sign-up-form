@@ -41,8 +41,8 @@
           </div>
           <div class="row">
             <div class="item">
-              <label for="email">Email</label>
-              <input type="email" name="email" id="email">
+              <label for="email">Email ( * )</label>
+              <input required type="email" name="email" id="email">
             </div>
             <div class="item">
               <label for="phone">Phone number</label>
@@ -51,12 +51,12 @@
           </div>
           <div class="row">
             <div class="item">
-              <label for="password">Password</label>
-              <input type="password" name="password" id="password">
+              <label for="password">Password ( * )</label>
+              <input required minlength="8" type="password" name="password" id="password">
             </div>
             <div class="item">
-              <label for="confirmation">Confirm password</label>
-              <input type="password" name="confirmation" id="confirmation">
+              <label for="confirmation">Confirm password ( * )</label>
+              <input required type="password" name="confirmation" id="confirmation">
             </div>
           </div>
         </form>
