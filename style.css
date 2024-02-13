@@ -11,6 +11,7 @@ body {
   background-color: var(--dark-color);
   color: var(--light-color);
   position: relative;
+  min-width: fit-content;
 }
 
 .page-divider {
@@ -102,33 +103,43 @@ a {
 
 .hook {
   margin-top: 0;
+  padding-left: 2rem;
 }
 
 form {
   display: flex;
   flex-direction: column;
-  max-width: 30vw;
-  min-width: fit-content;
+  max-width: 40vw;
 }
 
 .row {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   max-width: inherit;
   min-width: 10vw;
-  max-height: 2vw;
 }
 
 .item {
   max-height: fit-content;
   display: flex;
-  min-width: 20vw;
+  align-items: center;
+  justify-content: space-between;
+  min-width: fit-content;
+  margin-left: 2rem;
 }
 
 input {
-  height: 2vh;
-  margin: auto;
+  height: 1.5vh;
+  margin: 1rem;
+  background-color: var(--dark-color);
+  border: 1px solid var(--light-color);
+  border-radius: 5px;
 }
 
-label {
-
+.create-account-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
 }
