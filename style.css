@@ -23,7 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 40vw;
+  width: 50vw;
   height: 100vh;
   overflow: hidden;
 }
@@ -109,12 +109,15 @@ a {
 form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   max-width: 40vw;
 }
 
 .row {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  column-gap: 0;
   max-width: inherit;
   min-width: 10vw;
 }
@@ -122,8 +125,8 @@ form {
 .item {
   max-height: fit-content;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: baseline;
   min-width: fit-content;
   margin-left: 2rem;
 }
@@ -131,6 +134,7 @@ form {
 input {
   height: 1.5vh;
   margin: 1rem;
+  color: antiquewhite;
   background-color: var(--dark-color);
   border: 1px solid var(--light-color);
   border-radius: 5px;
@@ -139,7 +143,16 @@ input {
 .create-account-login {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  padding-left: 1rem;
   margin: 2rem;
+}
+
+button {
+  font-size: 1rem;
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  border: 1px solid var(--dark-color);
+  border-radius: 5px;
 }
